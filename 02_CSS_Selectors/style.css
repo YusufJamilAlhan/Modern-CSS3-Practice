@@ -1,0 +1,60 @@
+/* 
+h1 = Selector
+color = Property
+red = value
+* = universal selector
+. = class selector
+# = ID Selector
+, = group
+ */
+
+
+
+*{
+    margin: 10px 20px;
+    
+}
+
+h1{
+    color:brown;
+    background-color: blanchedalmond;
+    padding: 0 0 0 100px; 
+
+}
+body p{
+    background-color: rgb(61, 240, 240);
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+button{
+    background-color:bisque;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+    
+}
+
+div{
+    background: yellow;
+    width: 200px;
+    height: 100px;
+}
+
+div p{
+    background: none;
+}
+
+#bg_color{
+    background-color: aquamarine;
+}
+
+#first_p{
+    text-align: center ;
+    padding: 20px 5px;
+}
+
+.Second_p{
+    color: blueviolet;
+}
