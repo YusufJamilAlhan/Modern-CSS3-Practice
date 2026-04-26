@@ -1,0 +1,27 @@
+body{
+    background: url(bg_image.jpg);
+    background-size: cover;
+}
+
+div{
+    background-color: rgba(175, 59, 39, 0.473);
+    background-image: url(the_code.jpg);
+    background-size: 150px 150px;
+
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: repeat; */
+    background-repeat: no-repeat;
+/* 
+    background-position: top left; 
+    background-position: bottom left;
+    background-position: top right;
+    background-position: bottm right;  */
+    background-position: center ;
+
+
+    /* ShortHand Css Practice */
+    background: cornflowerblue url(the_code.jpg) no-repeat center;
+
+
+}
