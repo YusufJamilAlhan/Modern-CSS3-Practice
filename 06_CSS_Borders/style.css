@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: hidden;
+    border-style:initial;
+    border-style: inset;
+    border-style: outset;
+    border-style: ridge;
+    border-style: solid;
+    border-style: unset; 
+    border-style: none;
+    border-style: solid;
+
+
+
+    border-width: 3px;
+    border-radius: 15px;
+
+
+    border-left: 3px solid green;
+    border-top: 6px solid blue;
+    border-right: 8px solid red;
+    border-bottom: 10px solid mediumvioletred;
+
+    border-left-style: dashed;
+    border-top-style: double;
+    border-right-style: dotted;
+    border-bottom-style: outset;
+}
