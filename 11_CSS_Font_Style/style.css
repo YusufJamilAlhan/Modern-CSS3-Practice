@@ -1,0 +1,44 @@
+h1{
+    font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: fantasy;
+
+/* Custom Fonts */
+    font-family: "lato", sans-serif; 
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+/*  Serif Font */
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+/* Sans Serif Font */
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Sans-serif;
+
+/* MonoSpace Font */
+    font-family: 'Courier New', Courier, monospace;
+
+/* Fantasy Font */
+    font-family: papyrus;
+
+/* Cursive font */
+    font-family: 'Brush Script MT'; 
+
+}
+
+h2{
+    font-size: 63px; 
+    font-size: 4.0523em;
+    /* font-size: 100%; */
+
+  */
+    /* font-style: oblique; */
+
+    font-weight: normal;
+    font-weight:900;
+    font-family: "bungee spice";
+    font-variant: small-caps;
+}
