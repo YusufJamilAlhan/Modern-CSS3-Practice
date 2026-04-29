@@ -1,0 +1,15 @@
+h1{
+    background: bisque;
+    border-radius: 15px;
+    text-align: center;
+    width: auto;
+   
+}
+
+.fa-arch-linux{
+    background: red;
+    color: blue;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
