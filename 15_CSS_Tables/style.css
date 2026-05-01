@@ -1,0 +1,40 @@
+table,th, td{
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+th{
+    background: red;
+
+}
+
+td{
+    background: yellowgreen;
+    border: 2px solid;
+    height: 35px;
+    vertical-align: bottom;
+    vertical-align: top;
+    vertical-align: center;
+}
+
+tr:hover th,
+tr:hover td {
+    background: blueviolet;
+    color:white;
+    border: 3px solid black ;
+}
+
+
+.skill{
+    text-align: left;
+}
+
+div{
+    width: 458px;
+    height: 300px;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
