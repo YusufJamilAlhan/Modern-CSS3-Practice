@@ -1,0 +1,47 @@
+/* 
+
+Css Position all Property list 
+1. Static
+2. Relative
+3. Absolute
+4. Fixed
+5. Sticky 
+
+*/
+
+
+
+div{
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main{
+    background: #00e1ffb6;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    
+}
+
+.child{
+    background: green;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    top: 50%;
+    margin-top: -25px;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.sec{
+    background: blueviolet;
+    
+   
+}
