@@ -1,0 +1,40 @@
+/* 
+
+Combinator Selectors
+1. Descendant Selector: Selects elements nested within another (e.g., div p). 
+2. Child Selector (>): Selects direct children only (e.g., div > p). 
+3. Adjacent Sibling Selector (+): Selects the immediate next sibling (e.g., div + p). 
+4. General Sibling Selector (~): Selects all following siblings (e.g., div ~ p). 
+
+
+*/
+
+p{
+    color:blueviolet;
+}
+
+/* desendant selector */
+div p{
+    font-weight: bold;
+}
+
+/* child selector */
+div > p{
+    color: tomato
+}
+
+/* Adjacent Sibling Selector (+) */
+div + p{
+    color: red;
+    font-size : 20px;
+}
+
+section + p{
+    color: green;
+}
+
+
+/* General Sibling Selector (~) */
+div ~ p{
+font-size: 40px;
+}
