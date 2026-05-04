@@ -1,0 +1,48 @@
+div{
+    background: rgb(5, 176, 243);
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.main{
+    position: relative;
+    border-top-left-radius: 500px;
+    
+}
+.child{
+    background: purple;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+}
+
+.child_2{
+    background: palegoldenrod;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    margin-top: -25px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.child_3{
+    background: rgb(197, 22, 168);
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    margin-top: -12.5px;
+    left: 50%;
+    margin-left: -12.5px;
+    position: absolute;
+    z-index: 2;
+}

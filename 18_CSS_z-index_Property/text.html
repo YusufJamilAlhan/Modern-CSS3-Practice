@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo under z-index</title>
+
+
+<style>
+
+*{
+    margin: 0;
+}
+
+ #hero_area{
+ background-image: url(bg_image.jpg) ;
+ background-size: cover;
+ color: white;
+ text-align: center;
+ padding: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ position: relative;
+ z-index: 9;
+ }
+
+#hero_area h2{ 
+    font-size: 35px;
+    margin-bottom: 0;
+
+
+}
+#hero_area h2:hover{
+    background: #BBD5DA;
+    color: black;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;margin-bottom: 10px;
+}
+
+#hero_area p{
+  font-size: 15px;
+  margin-bottom: 15px;  
+}
+#hero_area p:hover{
+    background: #093C5D;
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+
+#hero_area a{
+    color: rgb(255, 255, 255);
+    font-weight: 400px;
+    text-decoration: none;
+    background-color: rgb(0, 81, 255);
+    padding: 15px;
+    border-radius: 9px;
+    display: inline-block;
+}
+
+#hero_area a:hover{
+    background: magenta;
+}
+
+.bg{
+position: absolute;
+background: rgb(0, 0, 0);
+width: 100%;
+height: 100%;
+margin: 0;
+top: 0;
+left: 0;
+opacity: 0.5;
+z-index: -1;
+}
+
+
+</style>
+
+</head>
+
+<body>
+  <section id="hero_area">
+    <div class="bg"></div>
+    <h2>Hello Guys</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto saepe cumque excepturi consequuntur, repudiandae ipsam ipsa deleniti cum animi voluptatum?</p>
+    <a href="" class="btn">Contact Us</a>
+
+</section>
+</body>
+</html>
